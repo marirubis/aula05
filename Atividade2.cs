@@ -9,7 +9,7 @@
         string letra;
 
           Console.WriteLine("Digite uma letra: ");
-          letra = Console.ReadLine()!;
+          letra = Console.ReadLine()!. ToLower();
           if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u")
           {
             Console.WriteLine($"A letra {letra} é VOGAL");
